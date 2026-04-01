@@ -3,7 +3,7 @@ A simple client server application built in java using TCP sockets
 ## Features
 - Real socket connection between client and server
 - Supports multiple commands
-Runs in a single terminal
+- Runs in a single terminal
 ## How to run
 ** Compile**
 javac ChatApp.java
@@ -16,10 +16,10 @@ java -cp . ChatApp
 - `REVERSE <msg>` - Reverses your message
 - `QUIT` - exists the program
 ## Example
-You >> ECHO hello
-Server >> Hello
-You >> Time
-Server >> Current time : Wed Apr 01 15:42:53 EAT 2026
+- You >> ECHO hello
+- Server >> Hello
+- You >> Time
+- Server >> Current time : Wed Apr 01 15:42:53 EAT 2026
 ## Concepts
 - Java TCP sockets
 - Multithreading
